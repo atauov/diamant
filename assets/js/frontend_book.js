@@ -615,7 +615,8 @@ window.FrontendBook = window.FrontendBook || {};
         data.customer = {
             last_name: $('#last-name').val(),
             first_name: $('#first-name').val(),
-            email: $('#email').val(),
+            // email: $('#email').val(),
+            email: 'customer@elpatron.kz',
             phone_number: $('#phone-number').val(),
             address: $('#address').val(),
             city: $('#city').val(),
