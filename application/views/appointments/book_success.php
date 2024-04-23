@@ -27,15 +27,15 @@
             <div>
                 <h3><?= lang('appointment_registered') ?></h3>
 
-                <p>
+                <!-- <p>
                     <?= lang('appointment_details_was_sent_to_you') ?>
-                </p>
+                </p> -->
 
-                <p>
+                <!-- <p>
                     <strong>
                         <?= lang('check_spam_folder') ?>
                     </strong>
-                </p>
+                </p> -->
 
                 <a href="<?= site_url() ?>" class="btn btn-success btn-large">
                     <i class="fas fa-calendar-alt"></i>
