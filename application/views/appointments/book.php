@@ -274,7 +274,7 @@
                                     <?= lang('email') ?>
                                     <span class="text-danger">*</span>
                                 </label> -->
-                                <input type="hidden" id="email" class="required form-control" maxlength="120"/>
+                                <input type="hidden" id="email" value="customer@elpatron.kz" class="required form-control" maxlength="120"/>
                             </div>
                         </div>
 
