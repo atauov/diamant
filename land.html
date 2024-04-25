@@ -1,0 +1,56 @@
+<!DOCTYPE html><
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Барбершоп El Patron</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css"> <!-- Перенос CSS на собственный сервер -->
+    <style>
+        body {
+            background-color: #343a40; /* Dark gray background */
+        }
+        .container {
+            text-align: center; /* Center the content */
+            padding-top: 50px; /* Add space at the top */
+        }
+        .branch-button {
+            background-color: #429a82; /* Green color for buttons */
+            color: white;
+            border: none;
+            padding: 15px; /* Spacing for buttons */
+            margin: 10px; /* Spacing between buttons */
+            border-radius: 5px; /* Rounded corners */
+            font-size: 16px; /* Font size */
+            cursor: pointer; /* Change cursor to pointer */
+            transition: background-color 0.3s; /* Smooth hover effect */
+            width: 250px; /* Fixed width for uniform button size */
+        }
+        .branch-button:hover {
+            background-color: #2e8e5e; /* Darker green on hover */
+        }
+        .logo {
+            width: 100px; /* Set the desired width for the logo */
+            height: auto; /* Maintain aspect ratio */
+            margin-bottom: 20px; /* Space below the logo */
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- Logo -->
+    <img src="assets/img/logo.png" alt="Logo" class="logo"> <!-- Логотип на собственном сервере -->
+
+    <!-- Heading -->
+    <h1 style="color: white;">Выберите филиал</h1>
+
+    <!-- Branch Buttons -->
+    <button class="branch-button" onclick="window.location.href='asfendiyarov'">Санжара Асфендиярова 3</button>
+    <button class="branch-button" onclick="window.location.href='kenesary'">Кенесары 45</button>
+    <button class="branch-button" onclick="window.location.href='bokeyhan'">Алихан Бокейхан 16</button>
+    <button class="branch-button" onclick="window.location.href='turan'">Туран 55/12</button>
+    <button class="branch-button" onclick="window.location.href='kerey-zhanibek'">Керей-Жанибек хандар 12/1</button>
+</div>
+<script src="assets/js/jquery.min.js"></script> <!-- Перенос jQuery на собственный сервер -->
+<script src="assets/js/bootstrap.bundle.min.js"></script> <!-- Перенос Bootstrap JS на собственный сервер -->
+</body>
+</html>
