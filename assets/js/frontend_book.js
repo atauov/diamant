@@ -131,7 +131,7 @@ window.FrontendBook = window.FrontendBook || {};
         });
 
         // $('#select-timezone').val(Intl.DateTimeFormat().resolvedOptions().timeZone);
-        $('#select-timezone').val('Asia/Almaty');
+        $('#select-timezone').val('Asia/Astana');
 
         // Bind the event handlers (might not be necessary every time we use this class).
         if (defaultEventHandlers) {
