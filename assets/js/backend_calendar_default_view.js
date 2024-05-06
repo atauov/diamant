@@ -1425,6 +1425,8 @@ window.BackendCalendarDefaultView = window.BackendCalendarDefaultView || {};
                 center: 'title',
                 right: 'agendaDay,agendaWeek,month'
             },
+            minTime: '10:00:00',
+            maxTime: '22:00:00',
 
             // Selectable
             selectable: true,
