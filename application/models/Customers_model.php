@@ -99,30 +99,30 @@ class Customers_model extends EA_Model {
             throw new Exception('Not all required fields are provided: ' . print_r($customer, TRUE));
         }
 
-        // Validate email address
-        if ( ! filter_var($customer['email'], FILTER_VALIDATE_EMAIL))
-        {
-            throw new Exception('Invalid email address provided: ' . $customer['email']);
-        }
+        // // Validate email address
+        // if ( ! filter_var($customer['email'], FILTER_VALIDATE_EMAIL))
+        // {
+        //     throw new Exception('Invalid email address provided: ' . $customer['email']);
+        // }
 
-        // When inserting a record the email address must be unique.
-        $customer_id = isset($customer['id']) ? $customer['id'] : '';
+        // // When inserting a record the email address must be unique.
+        // $customer_id = isset($customer['id']) ? $customer['id'] : '';
 
-        $num_rows = $this->db
-            ->select('*')
-            ->from('users')
-            ->join('roles', 'roles.id = users.id_roles', 'inner')
-            ->where('roles.slug', DB_SLUG_CUSTOMER)
-            ->where('users.email', $customer['email'])
-            ->where('users.id !=', $customer_id)
-            ->get()
-            ->num_rows();
+        // $num_rows = $this->db
+        //     ->select('*')
+        //     ->from('users')
+        //     ->join('roles', 'roles.id = users.id_roles', 'inner')
+        //     ->where('roles.slug', DB_SLUG_CUSTOMER)
+        //     ->where('users.email', $customer['email'])
+        //     ->where('users.id !=', $customer_id)
+        //     ->get()
+        //     ->num_rows();
 
-        if ($num_rows > 0)
-        {
-            throw new Exception('Given email address belongs to another customer record. '
-                . 'Please use a different email.');
-        }
+        // if ($num_rows > 0)
+        // {
+        //     throw new Exception('Given email address belongs to another customer record. '
+        //         . 'Please use a different email.');
+        // }
 
         return TRUE;
     }

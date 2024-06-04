@@ -311,13 +311,13 @@
                                     <input id="last-name" class="required form-control">
                                 </div>
 
-                                <div class="form-group">
+                                <!-- <div class="form-group">
                                     <label for="email" class="control-label">
                                         <?= lang('email') ?>
                                         <span class="text-danger">*</span>
                                     </label>
                                     <input id="email" class="required form-control">
-                                </div>
+                                </div> -->
 
                                 <div class="form-group">
                                     <label for="phone-number" class="control-label">
@@ -330,7 +330,7 @@
                                            class="form-control <?= $require_phone_number === '1' ? 'required' : '' ?>">
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-6">
+                            <!-- <div class="col-12 col-sm-6">
                                 <div class="form-group">
                                     <label for="address" class="control-label">
                                         <?= lang('address') ?>
@@ -358,7 +358,7 @@
                                     </label>
                                     <textarea id="customer-notes" rows="2" class="form-control"></textarea>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </fieldset>
                 </form>
