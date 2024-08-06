@@ -317,7 +317,7 @@
                                         <span class="text-danger">*</span>
                                     </label>
                                     <input type="hidden" name="email" value="customer@diamant.com">
-                                    <p class="required form-control">customer@diamant.com</p>                                </div>
+                                        </div>
 
                                 <div class="form-group">
                                     <label for="phone-number" class="control-label">
