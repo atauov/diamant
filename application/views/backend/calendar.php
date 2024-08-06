@@ -316,7 +316,7 @@
                                         <?= lang('email') ?>
                                         <span class="text-danger">*</span>
                                     </label>
-                                    <input type="hidden" name="email" value="customer@diamant.com">
+                                    <p type="hidden" class="required form-control" name="email" value="customer@diamant.com">sdsd</p>
                                         </div>
 
                                 <div class="form-group">
