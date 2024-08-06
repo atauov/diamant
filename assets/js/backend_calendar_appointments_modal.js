@@ -55,9 +55,6 @@ window.BackendCalendarAppointmentsModal = window.BackendCalendarAppointmentsModa
             var startDatetime = $dialog.find('#start-datetime').datetimepicker('getDate').toString('yyyy-MM-dd HH:mm:ss');
             var endDatetime = $dialog.find('#end-datetime').datetimepicker('getDate').toString('yyyy-MM-dd HH:mm:ss');
 
-            document.getElementById('email').value = "customer@example.com";
-            console.log('Hellooooooooooooo');
-
             var appointment = {
                 id_services: $dialog.find('#select-service').val(),
                 id_users_provider: $dialog.find('#select-provider').val(),
