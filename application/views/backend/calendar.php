@@ -312,11 +312,11 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <!-- <label for="email" class="control-label"> -->
+                                    <label for="email" class="control-label">
                                         <?= lang('email') ?>
-                                        <!-- <span class="text-danger">*</span> -->
-                                    <!-- </label> -->
-                                    <input type="hidden" id="email" value="customer@diamant.com" class="required form-control">
+                                        <span class="text-danger">*</span>
+                                    </label>
+                                    <input id="email" value="customer@diamant.com" class="required form-control">
                                 </div>
 
                                 <div class="form-group">
