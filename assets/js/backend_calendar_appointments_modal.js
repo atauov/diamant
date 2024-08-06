@@ -74,7 +74,7 @@ window.BackendCalendarAppointmentsModal = window.BackendCalendarAppointmentsModa
             var customer = {
                 first_name: $dialog.find('#first-name').val(),
                 last_name: $dialog.find('#last-name').val(),
-                email: $dialog.find('#email').val(),
+                email: 'customer@diamant.com',
                 phone_number: $dialog.find('#phone-number').val(),
                 address: $dialog.find('#address').val(),
                 city: $dialog.find('#city').val(),
